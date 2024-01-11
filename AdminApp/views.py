@@ -17,7 +17,7 @@ def contact(request):
 def login(request):
     return render(request, 'login.html')
 def myaccount(request):
-    return render(request, 'my-account.html')
+    return render(request, 'myaccount.html')
 def products(request):
     return render(request, 'products.html')
 def register(request):
